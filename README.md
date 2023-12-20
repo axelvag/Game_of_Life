@@ -1,3 +1,7 @@
+![image](image/Jeudelavie1.jpg)
+![image](image/Jeudelavie2.jpg)
+![image](image/Jeudelavie3.jpg)
+
 # GrAPiC 
 
 ## Starting
