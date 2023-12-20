@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852320FB1F47162DCF6CF73B /* tuto4_Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FEE03C26A32F5404DBC43 /* tuto4_Keyboard.cpp */; };
+		93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E425654D2C96497F71351B8D /* Grapic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0FEE03C26A32F5404DBC43 /* tuto4_Keyboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tuto4_Keyboard.cpp; path = ../../apps/tutorials/tuto4_Keyboard.cpp; sourceTree = "<group>"; };
+		51BC50594B2251CB3EBDAE99 /* tuto4_Keyboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = tuto4_Keyboard; path = tuto4_Keyboard; sourceTree = BUILT_PRODUCTS_DIR; };
+		E425654D2C96497F71351B8D /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../../src/Grapic.cpp; sourceTree = "<group>"; };
+		ED8445970496E0C9F4B2DBD7 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../../src/Grapic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8A01490D1519BBBC163F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37982FB0E3FAEFE2A28365F0 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				91A45A797C90806BC47648B9 /* tutorials */,
+			);
+			name = apps;
+			sourceTree = "<group>";
+		};
+		5775D4184366DFCA959E7A58 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E425654D2C96497F71351B8D /* Grapic.cpp */,
+				ED8445970496E0C9F4B2DBD7 /* Grapic.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		91A45A797C90806BC47648B9 /* tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				4E0FEE03C26A32F5404DBC43 /* tuto4_Keyboard.cpp */,
+			);
+			name = tutorials;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BC50594B2251CB3EBDAE99 /* tuto4_Keyboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4E08D01F619D82A1DFCF10 /* tuto4_Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				37982FB0E3FAEFE2A28365F0 /* apps */,
+				5775D4184366DFCA959E7A58 /* src */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+			);
+			name = tuto4_Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239F011F3AB19C512ACD975F /* tuto4_Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C549A8FB50621AAA5187E8 /* Build configuration list for PBXNativeTarget "tuto4_Keyboard" */;
+			buildPhases = (
+				0B7181E97CFC9A5B2BFDC029 /* Resources */,
+				751E9B40E6A9B3B295AAD980 /* Sources */,
+				9B8A01490D1519BBBC163F89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuto4_Keyboard;
+			productInstallPath = "$(HOME)/bin";
+			productName = tuto4_Keyboard;
+			productReference = 51BC50594B2251CB3EBDAE99 /* tuto4_Keyboard */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tuto4_Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = CF4E08D01F619D82A1DFCF10 /* tuto4_Keyboard */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239F011F3AB19C512ACD975F /* tuto4_Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7181E97CFC9A5B2BFDC029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		751E9B40E6A9B3B295AAD980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852320FB1F47162DCF6CF73B /* tuto4_Keyboard.cpp in Sources */,
+				93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3695012E4DA79C603DC3976E /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Grapic/tuto4_Keyboard;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++17",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+				USER_HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+				);
+			};
+			name = Grapic;
+		};
+		A20686FD657248AFA415ED3D /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = tuto4_Keyboard;
+			};
+			name = Grapic;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tuto4_Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3695012E4DA79C603DC3976E /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+		89C549A8FB50621AAA5187E8 /* Build configuration list for PBXNativeTarget "tuto4_Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20686FD657248AFA415ED3D /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

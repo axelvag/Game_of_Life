@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12535A60240A9A52997888A0 /* main_JeuMonstre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DA95568E191CD1A03DF7BA8 /* main_JeuMonstre.cpp */; };
+		93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E425654D2C96497F71351B8D /* Grapic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A43F4957BCF0D072AD032D5 /* JeuMonstre */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = JeuMonstre; path = JeuMonstre; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA95568E191CD1A03DF7BA8 /* main_JeuMonstre.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main_JeuMonstre.cpp; path = ../../apps/JeuMonstre/main_JeuMonstre.cpp; sourceTree = "<group>"; };
+		E425654D2C96497F71351B8D /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../../src/Grapic.cpp; sourceTree = "<group>"; };
+		ED8445970496E0C9F4B2DBD7 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../../src/Grapic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD0E785E78D96F75C7805C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32EDBA8C1EDEC63E711660CC /* JeuMonstre */ = {
+			isa = PBXGroup;
+			children = (
+				37982FB0E3FAEFE2A28365F0 /* apps */,
+				5775D4184366DFCA959E7A58 /* src */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+			);
+			name = JeuMonstre;
+			sourceTree = "<group>";
+		};
+		37982FB0E3FAEFE2A28365F0 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				B00350630690BAD5DF09CEA3 /* JeuMonstre */,
+			);
+			name = apps;
+			sourceTree = "<group>";
+		};
+		5775D4184366DFCA959E7A58 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E425654D2C96497F71351B8D /* Grapic.cpp */,
+				ED8445970496E0C9F4B2DBD7 /* Grapic.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A43F4957BCF0D072AD032D5 /* JeuMonstre */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00350630690BAD5DF09CEA3 /* JeuMonstre */ = {
+			isa = PBXGroup;
+			children = (
+				6DA95568E191CD1A03DF7BA8 /* main_JeuMonstre.cpp */,
+			);
+			name = JeuMonstre;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3650DDBE6D5E00D6842841B /* JeuMonstre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90C2FE4D5C8DF564AB34E24 /* Build configuration list for PBXNativeTarget "JeuMonstre" */;
+			buildPhases = (
+				4AB8682557751797CC5F8665 /* Resources */,
+				B465817CC12230EE360C9FBC /* Sources */,
+				DAD0E785E78D96F75C7805C5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JeuMonstre;
+			productInstallPath = "$(HOME)/bin";
+			productName = JeuMonstre;
+			productReference = 0A43F4957BCF0D072AD032D5 /* JeuMonstre */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "JeuMonstre" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 32EDBA8C1EDEC63E711660CC /* JeuMonstre */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3650DDBE6D5E00D6842841B /* JeuMonstre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB8682557751797CC5F8665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B465817CC12230EE360C9FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12535A60240A9A52997888A0 /* main_JeuMonstre.cpp in Sources */,
+				93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99E0AEB9C21B676BA9B6F4F9 /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = JeuMonstre;
+			};
+			name = Grapic;
+		};
+		F65B0DEAF9CBE01C7B38842A /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Grapic/JeuMonstre;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++17",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+				USER_HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+				);
+			};
+			name = Grapic;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "JeuMonstre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65B0DEAF9CBE01C7B38842A /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+		C90C2FE4D5C8DF564AB34E24 /* Build configuration list for PBXNativeTarget "JeuMonstre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E0AEB9C21B676BA9B6F4F9 /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

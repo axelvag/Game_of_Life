@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3916C738C3C939B3A89507 /* main_Montagne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DCB2F0C5AE561E864416F /* main_Montagne.cpp */; };
+		93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E425654D2C96497F71351B8D /* Grapic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D3DCB2F0C5AE561E864416F /* main_Montagne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main_Montagne.cpp; path = ../../apps/Montagne/main_Montagne.cpp; sourceTree = "<group>"; };
+		9285E442C12C38341A6D9282 /* Montagne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Montagne; path = Montagne; sourceTree = BUILT_PRODUCTS_DIR; };
+		E425654D2C96497F71351B8D /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../../src/Grapic.cpp; sourceTree = "<group>"; };
+		ED8445970496E0C9F4B2DBD7 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../../src/Grapic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3C08B21FC233A4F20696F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E69F5DD17CFF74F0B6B541D /* Montagne */ = {
+			isa = PBXGroup;
+			children = (
+				2D3DCB2F0C5AE561E864416F /* main_Montagne.cpp */,
+			);
+			name = Montagne;
+			sourceTree = "<group>";
+		};
+		37982FB0E3FAEFE2A28365F0 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				1E69F5DD17CFF74F0B6B541D /* Montagne */,
+			);
+			name = apps;
+			sourceTree = "<group>";
+		};
+		5775D4184366DFCA959E7A58 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E425654D2C96497F71351B8D /* Grapic.cpp */,
+				ED8445970496E0C9F4B2DBD7 /* Grapic.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		775D84596BD3FB8BBAA79A99 /* Montagne */ = {
+			isa = PBXGroup;
+			children = (
+				37982FB0E3FAEFE2A28365F0 /* apps */,
+				5775D4184366DFCA959E7A58 /* src */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+			);
+			name = Montagne;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9285E442C12C38341A6D9282 /* Montagne */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54213BE8F873D99A0AAC2228 /* Montagne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7751110DFD7C03E041DF51 /* Build configuration list for PBXNativeTarget "Montagne" */;
+			buildPhases = (
+				3D2389528FA9B44461EE1792 /* Resources */,
+				A6D0A2A9F956CD9BCB9B30E9 /* Sources */,
+				CD3C08B21FC233A4F20696F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Montagne;
+			productInstallPath = "$(HOME)/bin";
+			productName = Montagne;
+			productReference = 9285E442C12C38341A6D9282 /* Montagne */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Montagne" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 775D84596BD3FB8BBAA79A99 /* Montagne */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54213BE8F873D99A0AAC2228 /* Montagne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2389528FA9B44461EE1792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D0A2A9F956CD9BCB9B30E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3916C738C3C939B3A89507 /* main_Montagne.cpp in Sources */,
+				93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67173BF70B69D9A91DA22237 /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Grapic/Montagne;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++17",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+				USER_HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+				);
+			};
+			name = Grapic;
+		};
+		93E39106DC54753820F34746 /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Montagne;
+			};
+			name = Grapic;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Montagne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67173BF70B69D9A91DA22237 /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+		BB7751110DFD7C03E041DF51 /* Build configuration list for PBXNativeTarget "Montagne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E39106DC54753820F34746 /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

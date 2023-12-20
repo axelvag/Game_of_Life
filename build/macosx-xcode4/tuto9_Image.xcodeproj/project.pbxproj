@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E425654D2C96497F71351B8D /* Grapic.cpp */; };
+		DABF71494EA7E8FB70F59789 /* tuto9_Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2640D571ECCECCE35AD0F3B1 /* tuto9_Image.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2640D571ECCECCE35AD0F3B1 /* tuto9_Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tuto9_Image.cpp; path = ../../apps/tutorials/tuto9_Image.cpp; sourceTree = "<group>"; };
+		B12941B054176862E33D47F0 /* tuto9_Image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = tuto9_Image; path = tuto9_Image; sourceTree = BUILT_PRODUCTS_DIR; };
+		E425654D2C96497F71351B8D /* Grapic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../../src/Grapic.cpp; sourceTree = "<group>"; };
+		ED8445970496E0C9F4B2DBD7 /* Grapic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../../src/Grapic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1DDF205F707CD271A8C560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37982FB0E3FAEFE2A28365F0 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				91A45A797C90806BC47648B9 /* tutorials */,
+			);
+			name = apps;
+			sourceTree = "<group>";
+		};
+		3B27DA87A53A5C793E6548C7 /* tuto9_Image */ = {
+			isa = PBXGroup;
+			children = (
+				37982FB0E3FAEFE2A28365F0 /* apps */,
+				5775D4184366DFCA959E7A58 /* src */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+			);
+			name = tuto9_Image;
+			sourceTree = "<group>";
+		};
+		5775D4184366DFCA959E7A58 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E425654D2C96497F71351B8D /* Grapic.cpp */,
+				ED8445970496E0C9F4B2DBD7 /* Grapic.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		91A45A797C90806BC47648B9 /* tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				2640D571ECCECCE35AD0F3B1 /* tuto9_Image.cpp */,
+			);
+			name = tutorials;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12941B054176862E33D47F0 /* tuto9_Image */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F7A3966982BC081883E1D6 /* tuto9_Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959277F4DABC5315FE40DBF /* Build configuration list for PBXNativeTarget "tuto9_Image" */;
+			buildPhases = (
+				2B055FC0CF57FD72E1904600 /* Resources */,
+				94B27917390516C94B3D5F57 /* Sources */,
+				BB1DDF205F707CD271A8C560 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuto9_Image;
+			productInstallPath = "$(HOME)/bin";
+			productName = tuto9_Image;
+			productReference = B12941B054176862E33D47F0 /* tuto9_Image */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tuto9_Image" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 3B27DA87A53A5C793E6548C7 /* tuto9_Image */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F7A3966982BC081883E1D6 /* tuto9_Image */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B055FC0CF57FD72E1904600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B27917390516C94B3D5F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF71494EA7E8FB70F59789 /* tuto9_Image.cpp in Sources */,
+				93EE9A058DB05677C7AF5845 /* Grapic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AEDA3A57C78BC172B79E1E5 /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Grapic/tuto9_Image;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-W -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-variable -Wno-comment -Wno-narrowing",
+					"-std=c++17",
+				);
+				OTHER_LDFLAGS = (
+					../../extern/macosx/SDL2.framework/Versions/A/SDL2,
+					../../extern/macosx/SDL2_image.framework/Versions/A/SDL2_image,
+					../../extern/macosx/SDL2_ttf.framework/Versions/A/SDL2_ttf,
+					"-rpath @executable_path/../extern/macosx",
+				);
+				SYMROOT = ../../bin;
+				USER_HEADER_SEARCH_PATHS = (
+					../..,
+					../../src,
+				);
+			};
+			name = Grapic;
+		};
+		6D29EA349CBBB92677C8F874 /* Grapic */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = tuto9_Image;
+			};
+			name = Grapic;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tuto9_Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEDA3A57C78BC172B79E1E5 /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+		A959277F4DABC5315FE40DBF /* Build configuration list for PBXNativeTarget "tuto9_Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D29EA349CBBB92677C8F874 /* Grapic */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Grapic;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

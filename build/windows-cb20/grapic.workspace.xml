@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="grapic">
+		<Project filename="Start.cbp" active="1">
+		</Project>
+		<Project filename="tuto1_Simple.cbp">
+		</Project>
+		<Project filename="tuto2_FirstLoop.cbp">
+		</Project>
+		<Project filename="tuto3_Drawing.cbp">
+		</Project>
+		<Project filename="tuto4_Keyboard.cbp">
+		</Project>
+		<Project filename="tuto5_Mouse.cbp">
+		</Project>
+		<Project filename="tuto6_Menu.cbp">
+		</Project>
+		<Project filename="tuto7_Animation.cbp">
+		</Project>
+		<Project filename="tuto8_Plot.cbp">
+		</Project>
+		<Project filename="tuto9_Image.cbp">
+		</Project>
+		<Project filename="tuto10_Demo.cbp">
+		</Project>
+		<Project filename="demo_Minesweeper.cbp">
+		</Project>
+		<Project filename="demo_Tetris.cbp">
+		</Project>
+		<Project filename="demo_Checkers.cbp">
+		</Project>
+		<Project filename="demo_Pacman.cbp">
+		</Project>
+		<Project filename="LIFAMI_1_Complex.cbp">
+		</Project>
+		<Project filename="LIFAMI_2_Interpolation.cbp">
+		</Project>
+		<Project filename="LIFAMI_3_Particle.cbp">
+		</Project>
+		<Project filename="LIFAMI_4_ParticleSpring.cbp">
+		</Project>
+		<Project filename="LIFAMI_5_GameOfLife.cbp">
+		</Project>
+		<Project filename="LIFAMI_6_WolfRabbit.cbp">
+		</Project>
+		<Project filename="LIFAMI_7_ColorInsects.cbp">
+		</Project>
+		<Project filename="LIFAMI_8_IceScream.cbp">
+		</Project>
+		<Project filename="LIFAP1_TP3.cbp">
+		</Project>
+		<Project filename="JeuMonstre.cbp">
+		</Project>
+		<Project filename="Memory.cbp">
+		</Project>
+		<Project filename="Montagne.cbp">
+		</Project>
+		<Project filename="Fonction.cbp">
+		</Project>
+		<Project filename="FallCastle.cbp">
+		</Project>
+		<Project filename="MouvementAir.cbp">
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>
