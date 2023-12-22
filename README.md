@@ -1,6 +1,21 @@
+#Game_of_life
+
+> This project is an implementation of Conway's Game of Life in C++. The Game of Life is a cellular automaton that evolves over time based on a set of simple rules.ame in C++ that will test your memory! Flip the cards over to find matching pairs.
+
 ![image](image/Jeudelavie1.jpg)
 ![image](image/Jeudelavie2.jpg)
 ![image](image/Jeudelavie3.jpg)
+
+## Rules of the Game of Life
+
+1. Any live cell with fewer than two live neighbors dies, as if caused by underpopulation.
+2. Any live cell with two or three live neighbors survives to the next generation.
+3. Any live cell with more than three live neighbors dies, as if caused by overpopulation.
+4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+
+## Fonctionnality
+
+I simplified the installation of the black cell to do it with the mouse before launching the program.
 
 # GrAPiC 
 
