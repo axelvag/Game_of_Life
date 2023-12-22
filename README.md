@@ -17,6 +17,15 @@
 
 I simplified the installation of the black cell to do it with the left clic on mouse before launching the program with Space.
 
+# Starting
+
+- Install CodeBlocks (information at the bottom of this page)
+
+- Clone this repo
+```bash
+$ git clone https://github.com/axelvag/Game_of_Life
+```
+
 # GrAPiC 
 
 ## Starting
