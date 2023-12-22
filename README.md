@@ -1,4 +1,4 @@
-#Game_of_life
+# Game_of_life
 
 > This project is an implementation of Conway's Game of Life in C++. The Game of Life is a cellular automaton that evolves over time based on a set of simple rules.ame in C++ that will test your memory! Flip the cards over to find matching pairs.
 
