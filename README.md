@@ -15,7 +15,7 @@
 
 ## Fonctionnality
 
-I simplified the installation of the black cell to do it with the mouse before launching the program.
+I simplified the installation of the black cell to do it with the left clic on mouse before launching the program with Space.
 
 # GrAPiC 
 
